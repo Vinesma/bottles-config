@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-GAME_ROOT="$HOME/.local/share/bottles/bottles/Koikatsu/drive_c/Program Files (x86)/Koikatsu"
+BOTTLE="Koikatsu"
+BOTTLES_ROOT="$HOME/.local/share/bottles/bottles/$BOTTLE"
+GAME_ROOT="$BOTTLES_ROOT/drive_c/Program Files (x86)/Koikatsu"
 GAME_EXE=Koikatu.exe
 
 run() {
