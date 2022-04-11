@@ -7,7 +7,7 @@ GAME_EXE=Koikatu.exe
 
 run() {
     cd "$GAME_ROOT" || exit 1
-    bottles -b Koikatsu -e "$GAME_ROOT/$GAME_EXE"
+    bottles -b "$BOTTLE" -e "$GAME_ROOT/$GAME_EXE"
 }
 
 if [ "$1" == "-v" ]; then
