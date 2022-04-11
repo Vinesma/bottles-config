@@ -1,0 +1,100 @@
+Arch: win64
+Creation_Date: '2022-04-11 13:39:45.979161'
+Custom_Path: false
+DLL_Overrides:
+    winhttp: n,b
+DXVK: dxvk-1.10.1
+Environment: Gaming
+Environment_Variables: {}
+External_Programs:
+    InitSetting.exe:
+        arguments: ''
+        executable: InitSetting.exe
+        folder: /home/vinesma/.local/share/bottles/bottles/Koikatsu/drive_c/Program
+            Files (x86)/Koikatsu
+        icon: com.usebottles.bottles-program
+        name: Koikatsu_Settings
+        path: /home/vinesma/.local/share/bottles/bottles/Koikatsu/drive_c/Program
+            Files (x86)/Koikatsu/InitSetting.exe
+        removed: null
+        script: null
+    Koikatu.exe:
+        executable: Koikatu.exe
+        name: Koikatu
+        path: /home/vinesma/.local/share/bottles/bottles/Koikatsu/drive_c/Program
+            Files (x86)/Koikatsu/Koikatu.exe
+Installed_Dependencies:
+- d3dx9
+- msls31
+- arial32
+- times32
+- courie32
+- d3dcompiler_43
+- d3dcompiler_47
+- allfonts
+- dotnet35
+- dotnet40
+- dotnet45
+- dotnet46
+- dotnet461
+- dotnet462
+- dotnet472
+LatencyFleX: latencyflex-v0.1.0
+Latest_Executables: []
+NVAPI: dxvk-nvapi-v0.5.3
+Name: Koikatsu
+Parameters:
+    custom_dpi: 96
+    discrete_gpu: true
+    dxvk: true
+    dxvk_hud: false
+    dxvk_nvapi: false
+    fixme_logs: false
+    fsr: false
+    fsr_level: 5
+    fullscreen_capture: false
+    gamemode: false
+    gamescope: false
+    gamescope_borderless: false
+    gamescope_fps: 0
+    gamescope_fps_no_focus: 0
+    gamescope_fullscreen: true
+    gamescope_game_height: 0
+    gamescope_game_width: 0
+    gamescope_scaling: false
+    gamescope_window_height: 0
+    gamescope_window_width: 0
+    latencyflex: false
+    mangohud: false
+    pulseaudio_latency: true
+    sync: fsync
+    take_focus: false
+    use_runtime: false
+    use_steam_runtime: false
+    virtual_desktop: false
+    virtual_desktop_res: 1280x720
+    vkd3d: false
+Path: Koikatsu
+Runner: caffe-7.5
+State: 0
+Uninstallers:
+    allfonts: false
+    arial32: false
+    courie32: false
+    d3dcompiler_43: false
+    d3dcompiler_47: false
+    d3dx9: false
+    dotnet35: true
+    dotnet40: Microsoft .NET Framework 4 Extended
+    dotnet45: true
+    dotnet46: true
+    dotnet461: true
+    dotnet462: true
+    dotnet472: true
+    msls31: false
+    times32: false
+Update_Date: '2022-04-11 14:47:00.829312'
+VKD3D: vkd3d-proton-2.6
+Versioning: false
+Windows: win10
+WorkingDir: ''
